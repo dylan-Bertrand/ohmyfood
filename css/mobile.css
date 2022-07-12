@@ -36,6 +36,7 @@ body
     animation-delay: 2s;
     position: fixed;
  }
+
  /* Spinner */
 
 @keyframes fadeout {
@@ -48,7 +49,7 @@ body
     }
   }
 
- .spinner {
+ .spinner{
     width: 5em;
     height: 5em;
     border: 5px solid skyblue;
@@ -58,15 +59,237 @@ body
     border-radius: 50%;
     animation: spin 0.5s infinite;
   }
+
   /* Header */
-  .header_logo {
+
+  .header_logo{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-family: "Shrikhand", "cursive";
   }
-.localisation 
+
+.localisation,
+.titre 
 {
   text-align: center;
 }
-  
+header {
+  font-size: 1.8rem;
+  top: 4.5%;
+}
+
+/* Logo */
+
+.header_log{
+text-align: center;
+width: 150px;
+}
+
+h1 {
+text-align: center;
+}
+
+.logolocalisation{
+width: 20px;
+font-size: 15px;
+border-radius: 10px 0px 0px 10px;
+text-align: center;
+padding: 12px;
+}
+
+/* Localisation*/
+
+.cadre_localisation{
+background: #ececec;
+padding-bottom: 30px;
+}
+
+.localisation{
+background: #d3d3d3;
+}
+
+.logo_localisation{
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 1rem;
+}
+
+.localisation_texte{
+margin: 0 25px;
+}
+
+.localisation .fas{
+margin-bottom: 2px;
+}
+
+/* Reservez, bouton explorer*/
+
+.sous_titre{
+font-weight: normal;
+font-size: 1.1rem;
+text-align: center;
+margin: 0 20px;
+}
+
+.boutonexplorer{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  width: 220px;
+  height: 50px;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: linear-gradient(#ff79da, #9356dc);
+  box-shadow: 0 2px 4px #636363cc;
+  z-index: 1;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.explorerestau{
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.explorerestau:hover::after{
+  opacity: 1;
+}
+
+.explorerestau::after{
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#dc66e0, #df96ee);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.bloc-titre {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 50px 0 10px 20px;
+  margin: 0;
+}
+
+.bloc-fonctionnement {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.onglet-fonct {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 10px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+.onglet-fonct__ball {
+  position: relative;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356dc;
+  border-radius: 20px;
+}
+.onglet-fonct .fas {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.onglet-fonct__numb {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
+  color: white;
+}
+.onglet-fonct__text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 27px;
+  margin: 0;
+}
+.onglet-fonct:hover {
+  background: #f2eafb;
+  transition: 0.5s linear;
+}
+.onglet-fonct:hover .fas {
+  color: #9356dc;
+  transition: 0.5s linear;
+}
+
+.categories {
+  margin: 0;
+  padding: 1em;
+}
+
+.liste {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bloc-fonctionnement {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.onglet-fonctionnement {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 10px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+
+.onglet-fonctionnement__1 {
+  position: relative;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356dc;
+  border-radius: 20px;
+}
+.onglet-fonctionnement .fas {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.onglet-fonctionnement__2 {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
+  color: white;
+}
+.onglet-fonctionnement__text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 27px;
+  margin: 0;
+}
