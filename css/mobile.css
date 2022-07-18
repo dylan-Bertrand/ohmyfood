@@ -293,3 +293,234 @@ margin: 0 20px;
   padding: 27px;
   margin: 0;
 }
+.onglet-fonct:hover {
+  background: #f2eafb;
+  transition: 0.5s linear;
+}
+.onglet-fonct:hover .fas {
+  color: #9356dc;
+  transition: 0.5s linear;
+}
+
+.categories {
+  margin: 0;
+  padding: 1em;
+}
+
+.liste {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bloc-fonctionnement {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.onglet-fonctionnement {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 10px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+
+.onglet-fonctionnement__1 {
+  position: relative;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356dc;
+  border-radius: 20px;
+}
+.onglet-fonctionnement .fas {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.onglet-fonctionnement__2 {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
+  color: white;
+}
+.onglet-fonctionnement__text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 27px;
+  margin: 0;
+}
+/* Restaurants */
+
+.fond-gris {
+  background: #ececec;
+}
+
+.titre_sections {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 50px 0 10px 20px;
+  margin: 0;
+  padding: 1em;
+}
+.bloc-restaurant {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rest-prev {
+  position: relative;
+  background: white;
+  height: 250px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+.rest-prev__lien {
+  text-decoration: none;
+  color: black;
+}
+.rest-prev__carte {
+  overflow: hidden;
+  height: 70%;
+}
+.rest-image {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rest-prev__nouveau {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #99e2d0;
+  border-radius: 2px;
+}
+.rest-prev__nouveautext {
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #278870;
+  padding: 8px;
+}
+.rest-prev__titre {
+  margin: 15px 0px 5px 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.rest-prev__place {
+  margin: 0px 0px 0px 15px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.rest-prev .coeur:hover .fas.fa-heart {
+  opacity: 1;
+}
+.rest-prev .coeur:hover .far.fa-heart {
+  opacity: 0;
+}
+.rest-prev .fas.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  background: linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.rest-prev .far.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.fond-gris-menu {
+  position: relative;
+  background-color: #ececec;
+  border-radius: 45px 45px 0px 0px;
+  margin-top: -50px;
+  padding-bottom: 10px;
+}
+
+.page-restaurant {
+  margin: 0px 20px;
+}
+.page-restaurant__titre {
+  font-family: "Shrikhand";
+  font-size: 1.75rem;
+  margin: 0;
+  padding-top: 20px;
+}
+.page-restaurant .coeur:hover .fas.fa-heart {
+  opacity: 1;
+}
+.page-restaurant .coeur:hover .far.fa-heart {
+  opacity: 0;
+}
+.page-restaurant .fas.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  background: linear-gradient(#ff79da, #9356dc);
+}
+.page-restaurant .far.fa-heart {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  opacity: 1;
+}
+
+/* Footer */
+
+.footer {
+  background: rgba(23, 23, 23, 0.8);
+  height: 200px;
+}
+.footer__1 {
+  margin: 0px 20px;
+}
+.footer__titre {
+  color: white;
+  font-family: "Shrikhand";
+  letter-spacing: 0.05rem;
+  margin: 0;
+  padding: 20px 0px 18px 0px;
+}
+.footer__3 {
+  margin: 8px 0;
+}
+.footer__3 .fas {
+  font-size: 0.7rem;
+  margin-right: 8px;
+}
+.footer__2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.footer__4 {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
