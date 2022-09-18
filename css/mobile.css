@@ -66,7 +66,7 @@ body
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    font-family: "Shrikhand", "cursive";
+    font-family: "Shrikhand";
   }
 
 .localisation,
@@ -498,7 +498,6 @@ margin: 0 20px;
   }
 }
 
-}
 
 @keyframes heart2{
   0%{opacity:0;}
