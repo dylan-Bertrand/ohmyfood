@@ -424,6 +424,7 @@ margin: 0 20px;
   font-weight: normal;
   font-size: 1rem;
 }
+/* 
 .rest-prev .coeur:hover .fas.fa-heart {
   opacity: 1;
 }
@@ -435,11 +436,83 @@ margin: 0 20px;
   position: absolute;
   right: 25px;
   bottom: 25px;
-  background: linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
-  transition: all 0.2s ease-in-out;
+  background: linear-gradient(#ff79da, #9356dc);
+}
+*/ 
+.fa-heart:hover {
+  animation: fill 2s ease-in-out;
+  display: inline-block;
+  opacity: 1;
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: inherit;
+  color: #ff79da;
+  font-weight: bold;
+}
+
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.1;
+  }
+
+  20% {
+    opacity: 0.2;
+  }
+
+  30% {
+    opacity: 0.3
+  }
+
+  40% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  60% {
+    opacity: 0.6;
+  }
+
+  70% {
+    opacity: 0.7;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  90% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+}
+
+@keyframes heart2{
+  0%{opacity:0;}
+  10%{opacity:0.1;}
+  20%{opacity:0.2;}
+  30%{opacity:0.3;}
+  40%{opacity:0.4;}
+  50%{opacity:0.5;}
+  60%{opacity:0.6;}
+  70%{opacity:0.7;}
+  80%{opacity:0.8;}
+  90%{opacity:0.9;}
+  100%{opacity:1;}
+
 }
 .rest-prev .far.fa-heart {
   font-size: 1.5rem;
@@ -447,7 +520,6 @@ margin: 0 20px;
   right: 25px;
   bottom: 25px;
   opacity: 1;
-  transition: all 0.2s ease-in-out;
 }
 
 .fond-gris-menu {
@@ -523,4 +595,19 @@ margin: 0 20px;
   font-weight: normal;
   font-size: 1rem;
 }
+@media screen and (min-width: 1024px) {
+  .bloc-fonctionnement {
+    flex-direction: row;
+  }
 
+  .bloc-restaurant {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__1{
+   text-align: center;
+  }
+
+
+
+}
