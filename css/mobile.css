@@ -403,7 +403,7 @@ margin: 0 20px;
 }
 .rest-image {
   border-radius: 20px 20px 0px 0px;
-  width: 100%;
+  width: 336px;
   height: 100%;
   object-fit: cover;
 }
@@ -571,6 +571,7 @@ margin: 0 20px;
 .footer {
   background: rgba(23, 23, 23, 0.8);
   height: 200px;
+  text-align: center;
 }
 .footer__1 {
   margin: 0px 20px;
@@ -601,7 +602,7 @@ margin: 0 20px;
   font-weight: normal;
   font-size: 1rem;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .bloc-fonctionnement {
     flex-direction: row;
   }
@@ -613,7 +614,5 @@ margin: 0 20px;
   .footer__1{
    text-align: center;
   }
-
-
 
 }
