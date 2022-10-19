@@ -616,3 +616,7 @@ margin: 0 20px;
   }
 
 }
+@media screen and (min-width: 764px) {
+  .bloc-restaurant {
+    width: 46%;
+  }
