@@ -602,7 +602,7 @@ margin: 0 20px;
   font-weight: normal;
   font-size: 1rem;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1020px) {
   .bloc-fonctionnement {
     flex-direction: row;
   }
@@ -610,13 +610,14 @@ margin: 0 20px;
   .bloc-restaurant {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
   .footer__1{
    text-align: center;
   }
 
 }
-@media screen and (min-width: 764px) {
+@media screen and (min-width: 764px) and (max-width: 900px) {
   .bloc-restaurant {
     width: 46%;
   }
