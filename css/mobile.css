@@ -619,5 +619,7 @@ margin: 0 20px;
 }
 @media screen and (min-width: 764px) and (max-width: 900px) {
   .bloc-restaurant {
-    width: 46%;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
+}
