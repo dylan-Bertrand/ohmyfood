@@ -431,24 +431,7 @@ margin: 0 20px;
   font-weight: normal;
   font-size: 1rem;
 }
-/* 
-.rest-prev .coeur:hover .fas.fa-heart {
-  opacity: 1;
-}
-.rest-prev .coeur:hover .far.fa-heart {
-  opacity: 0;
-}
-.rest-prev .fas.fa-heart {
-  font-size: 1.5rem;
-  position: absolute;
-  right: 25px;
-  bottom: 25px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 0;
-  background: linear-gradient(#ff79da, #9356dc);
-}
-*/ 
+
 .fa-heart:hover {
   animation: fill 2s ease-in-out;
   display: inline-block;
